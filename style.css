@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+    background-color: #0F1722;
+    margin: 0;
+}
+
+.calculator{
+    background-color: #1d293a;
+    margin-top: 30px; /*espaço parte de cima*/
+    width: 400px; /*largura da cal*/
+    height: 400px; /*altura da cal*/
+    margin-left: auto; /* os dois últimos para colocar a cal no centro*/
+    margin-right: auto; 
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#display{
+    display: flex;
+}
+
+#displayContent{
+    background-color: #354357;
+    color: #fff;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 258px;
+    height: 50px;
+    border: 1px solid #354357;
+    text-align: right;
+    box-sizing: border-box; /*para não ultrapassar a caixinha*/
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.btn-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn:hover{
+    background-color: #6c63ff;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 0 7.5px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #354357;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#btn-C{
+    width: 190px;
+}
+
+#btn-equal{
+    width: 120px;
+}
